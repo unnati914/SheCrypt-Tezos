@@ -19,13 +19,9 @@ p{
   display: flex;
   justify-content: center;
   align-items: space-around;
-  /* background-image: url(../images/blog/blogsection.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* background-color: white; */
   color: white;
   padding: 10rem;
 }
