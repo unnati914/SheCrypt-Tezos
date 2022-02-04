@@ -12373,17 +12373,13 @@ SheCrypt-Official
     background: top center;
     background-size: cover;
     position: relative;
-<<<<<<< HEAD
-    background-image: url('..//images/blog/black-woman-using-digital-tablet-looking-aside-over-blue-background-happy-black-woman-using-digital-tablet-computer-looking-aside-224809277.jpg');
-=======
-    background-image: url('..//images/blog/Untitled\ design\ \(1\).png');
-    background-size: contain;
->>>>>>> e42903eb8f6842d38215e8ea7d3931c044097a92
+    background-image: url('..//images/blog/Untitled\ design\(8\).png');
+    background-size: cover;
   }
   
   #hero:before {
     content: "";
-    background: rgba(45, 53, 69, 0.7);
+    background: rgba(45, 53, 69,0.7);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -12416,6 +12412,7 @@ SheCrypt-Official
     font-size: 22px;
   }
   
+  
   #hero .btn-get-started {
     border: 1px solid #007bff88;
     font-family: "Raleway", sans-serif;
@@ -12426,7 +12423,7 @@ SheCrypt-Official
     padding: 9px 35px;
     border-radius: 50px;
     margin-top: 40px;
-    background-color: #0275d8;
+    background-color: #ff66c4;
     color: #fff;
   }
   
