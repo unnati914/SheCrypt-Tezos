@@ -1,214 +1,106 @@
-html{
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
   font-size: 62.5%;
 }
 
-p{
+p {
   margin: 0;
   padding: 0;
 }
 
-.nav-link:hover{
-  background-color: #e83e8c;
-}
-
-.blogsection{
-  background-color: #8c52ff;
-  padding: 7em 0;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: space-around;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  color: white;
-  padding: 10rem;
-}
-
-.blogsection .left a{
-  font-size: 3.5rem;
-  color: black;
-  font-weight: 600;
-  text-decoration: none;
-  
-}
-
-.blogsection .left{
-  display: flex;
-  flex-direction: column;
- gap: 3rem;
-}
-
-.blogsection img{
-  height: 60rem;
-}
-
-.blogsection a:hover{
-  
-  color: #e83e8c;
-}
-
-
-.aboutblogdetails{
-  width:70%;
-  font-weight: 500;
-  font-size: 2rem;
-}
-
-
-  
-.aboutus-section{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+/* NAVBAR CSS STARTS */
+.navbar {
   /* background-color: #8c52ff; */
-  background-color: white;
-  width: 100%;
-  padding: 5rem;
-  align-content: stretch;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-top: 3rem;
 }
 
-.about-div{
-  height: 35rem;
-  /* background-color: white; */
-  background-color: #8c52ff;
-  color: white;
-  padding: 4rem;
-  border-radius: 1rem;
-  width: 40rem;
-  transition-duration: 1s;
+.navbar img {
+  height: 5rem;
+  margin-left: 10rem;
 }
 
-.about-div:hover{
-  background-color: #e83e8c;
-  cursor: pointer;
-  color: white;
-  transform: scale(1.1);
-}
+.navbar .links a {
 
-.about-div h3{
-  text-align: center;
-  font-size: 2.8rem;
   font-weight: 600;
-}
-
-.about-div p{
-  font-size: 1.7rem;
-  font-weight: 500;
-}
-
-.speaker-section{
-  background-color: #8c52ff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-}
-
-.speaker-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
-  width: 75%;
-}
-
-.speaker-box{
-  /* background-color: white; */
-  background-color: #8c52ff;
-color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 2rem;
-width: 30rem;
-height: 35rem;
-margin: 3rem;
-border-radius: 2rem;
-box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.192);
-cursor: pointer;
-}
-
-
-.speaker-section-heading{
-  font-size: 4rem;
-  text-align: center;
-  padding: 3rem;
+  font-size: 2rem;
   color: black;
-  font-weight: 600;
-}
-
-.speaker-box:hover{
-  transform: scale(1.05);
-  transition-duration: 1s;
-  background-color: #e83e8c;
+  padding: 2rem;
+  border-radius: 2rem;
   color: white;
+  background-color: #8c52ff;
 }
 
-.speaker-box img{
-  width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
+.navbar .links {
+  width: 50%;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.name{
-  font-size: 2.5rem;
-  font-weight: 600;
+.navbar .links a:hover {
+  background-color: #e83e8c;
+  transition-duration: 1s;
+
+  transform: scale(1.05);
 }
 
-.bio{
-  font-size: 1.2rem;
-  /* color: gray; */
-  margin-top: -1rem;
-}
+/* NAVBAR CSS ENDS */
 
-.thumbnail{
+/* THUMBNAIL CSS STARTS */
+
+.thumbnail {
   height: 80rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5rem;
   justify-content: center;
-
 }
 
-.headings .title{
+.headings .title {
   text-align: center;
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: 600;
-
 }
 
-.headings .subtitle{
-  margin-top: -2rem;
+.headings .subtitle {
   text-align: center;
   font-weight: 500;
   font-size: 3rem;
 }
 
-.socials{
-  margin-top: 8rem;
+.socials {
+  margin-top: 5rem;
   width: 50%;
   display: flex;
   justify-content: space-around;
 }
 
-.socials a{
+.socials a {
   font-size: 5rem;
   color: #8c52ff;
   border-radius: 2rem;
   box-shadow: 1rem 1rem 0.1rem #8c52ff2c;
 }
 
-.socials a:hover{
+.socials a:hover {
   transform: scale(1.1);
   transition-duration: 1s;
   color: #e83e8c;
 }
 
-.applybtn{
+.applybtn {
   background-color: #8c52ff;
   padding: 3rem;
   border-radius: 3rem;
@@ -221,46 +113,225 @@ cursor: pointer;
   align-items: center;
   justify-content: center;
   font-weight: 600;
-
 }
 
-.applybtn:hover{
+.applybtn:hover {
   background-color: #e83e8c;
   transition-duration: 1s;
   transform: scale(1.1);
 }
 
-.navbar{
-  /* background-color: #8c52ff; */
-  height:fit-content;
+/* THUMBNAIL CSS ENDS */
+
+/* ABOUT US SECTION STARTS */
+
+.aboutus-section {
+  padding: 7em 0;
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  margin: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10rem;
+  background-color: #8c52ff;
 }
 
-.navbar img{
-  height: 5rem;
-  margin-left: 10rem;
-}
-
-.navbar .links a{
-  transition-duration: 1s;
+.aboutus-section .left a {
+  font-size: 4rem;
   font-weight: 600;
-font-size: 2rem;
-color: black;
-padding: 2rem;
-border-radius: 2rem;
-color: white;
-background-color: #8c52ff;
+  color: black;
+  text-decoration: none;
+  width: fit-content;
 }
 
-.navbar .links{
-  width: 50%;
-  /* background-color: white; */
+.aboutus-section .left {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  color: black;
+  gap: 3rem;
 }
 
-.navbar .links a:hover{
-  background-color: #e83e8c;
+.aboutus-section img {
+  height: 60rem;
 }
+
+.aboutus-section a:hover {
+  color: #e83e8c;
+}
+
+.aboutusdetails {
+  width: 70%;
+  line-height: 1.8;
+  font-size: 2rem;
+}
+
+/* ABOUT US SECTION ENDS */
+
+/* SPEAKER SECTION STARTS */
+
+.speaker-section {
+  background-color: #8c52ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.speaker-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  width: 75%;
+}
+
+.speaker-box {
+  background-color: #8c52ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2rem; */
+  width: 30rem;
+  height: 35rem;
+  margin: 3rem;
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.192);
+  cursor: pointer;
+}
+
+.speaker-section-heading {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem;
+  color: black;
+  font-weight: 600;
+}
+
+.speaker-box:hover {
+  transform: scale(1.05);
+  transition-duration: 1s;
+  background-color: #e83e8c;
+  color: white;
+}
+
+.speaker-box img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+.name {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.speaker-box div{
+  background-color: white;
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-top: 2rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  font-size: 1.2rem;
+}
+
+/* SPEAKER SECTION ENDS */
+
+
+
+/* BLOG SECTION STARTS */
+
+.blogsection {
+  background-color: #8c52ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding: 10rem;
+}
+
+.blogsection .left a {
+  font-size: 4rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.blogsection .left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.blogsection img {
+  height: 60rem;
+}
+
+.blogsection a:hover {
+  color: #e83e8c;
+}
+
+.aboutblogdetails {
+  width: 70%;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+/* BLOG SECTION ENDS */
+
+
+/* TILES SECTION STARTS */
+
+.tiles-section{
+  padding: 7em 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10rem;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.tiles-div {
+  margin: 2rem;
+  min-height: 25rem;
+  background-color: #8c52ff;
+  padding: 4rem;
+  border-radius: 1rem;
+  width: 40rem;
+  color: black;
+  
+}
+
+.tiles-div:hover {
+  background-color: #e83e8c;
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.tiles-div h3 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.tiles-div p {
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* TILES SECTION ENDS */
+
+
