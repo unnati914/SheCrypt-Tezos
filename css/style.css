@@ -13414,19 +13414,6 @@ SheCrypt-Official
     justify-content: center;
   }
 
-  .blogsection{
-    background-image: url(../images/blog/blogsection.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-  }
-  .blogsection h1{
-    margin-left: 30px;
-  }
 
   .aboutdetails{
     width:50%;
