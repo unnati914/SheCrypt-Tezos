@@ -17,7 +17,6 @@ p {
 
 /* NAVBAR CSS STARTS */
 .navbar {
-  /* background-color: #8c52ff; */
   height: fit-content;
   display: flex;
   justify-content: space-between;
@@ -43,7 +42,6 @@ p {
 
 .navbar .links {
   width: 50%;
-  /* background-color: white; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -66,12 +64,17 @@ p {
   align-items: center;
   gap: 5rem;
   justify-content: center;
+  background-image: url(./../images/blog/header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .headings .title {
   text-align: center;
   font-size: 8rem;
   font-weight: 600;
+  color: black;
 }
 
 .headings .subtitle {
@@ -132,7 +135,7 @@ p {
   align-items: center;
   justify-content: space-around;
   padding: 10rem;
-  background-color: #8c52ff;
+  /* background-color: #8c52ff; */
 }
 
 .aboutus-section .left a {
@@ -162,6 +165,7 @@ p {
   width: 70%;
   line-height: 1.8;
   font-size: 2rem;
+  /* color: white; */
 }
 
 /* ABOUT US SECTION ENDS */
@@ -169,11 +173,11 @@ p {
 /* SPEAKER SECTION STARTS */
 
 .speaker-section {
-  background-color: #8c52ff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #8c52ff;
 }
 
 .speaker-container {
@@ -185,7 +189,8 @@ p {
 }
 
 .speaker-box {
-  background-color: #8c52ff;
+  /* background-color: #8c52ff; */
+  background-color: white;
   color: white;
   display: flex;
   flex-direction: column;
@@ -215,6 +220,8 @@ p {
   color: white;
 }
 
+
+
 .speaker-box img {
   width: 20rem;
   height: 20rem;
@@ -223,12 +230,15 @@ p {
 .name {
   font-size: 2.5rem;
   font-weight: 600;
+
 }
 
+
 .speaker-box div{
-  background-color: white;
+  background-color: #8c52ff;
   width: 100%;
-  color: black;
+  /* color: black; */
+  color: white;
   text-align: center;
   margin-top: 2rem;
   height: 10rem;
@@ -249,7 +259,7 @@ p {
 /* BLOG SECTION STARTS */
 
 .blogsection {
-  background-color: #8c52ff;
+  /* background-color: #8c52ff; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -282,6 +292,7 @@ p {
   width: 70%;
   font-size: 2rem;
   line-height: 1.8;
+  color: black;
 }
 
 /* BLOG SECTION ENDS */
@@ -296,14 +307,15 @@ p {
   align-items: center;
   justify-content: space-around;
   padding: 10rem;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #8c52ff;
   flex-wrap: wrap;
 }
 
 .tiles-div {
   margin: 2rem;
-  min-height: 25rem;
-  background-color: #8c52ff;
+  min-height: 40rem;
+  background-color: white;
   padding: 4rem;
   border-radius: 1rem;
   width: 40rem;
@@ -326,7 +338,7 @@ p {
 }
 
 .tiles-div p {
-
+  /* color: white; */
   font-size: 1.8rem;
   font-weight: 500;
   text-align: justify;
@@ -335,3 +347,96 @@ p {
 /* TILES SECTION ENDS */
 
 
+/* FOOTER CSS STARTS */
+.footer-bar{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding: 10rem;
+}
+
+.footer-bar a{
+  color: black;
+  cursor: pointer;
+
+}
+
+.footer-bar a:hover{
+  color: #e83e8c;
+}
+
+.footer-bar div{
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+.div-heading{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8c52ff;
+  margin-bottom: 3rem;
+}
+
+.div1-top{
+  margin-bottom: 2rem;
+}
+
+.footer-bar span{
+  font-weight: 600;
+}
+
+
+.div4{
+  text-align: right;
+}
+
+.div4 div{
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: row;
+}
+
+.div4 div button{
+  background-color: #8c52ff;
+  padding: 1rem;
+  border: 0px;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-left: -5rem;
+}
+
+.div4 div input{
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid #8c52ff;
+}
+
+.div4 div button:hover{
+  background-color: #e83e8c;
+  transition-duration: 1s;
+}
+
+.footer-line{
+  background-color: #8c52ff;
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  
+}
+
+.footer-line p{
+  letter-spacing: 0.3rem;
+  word-spacing:0.5rem;
+}
+/* FOOTER CSS ENDS */

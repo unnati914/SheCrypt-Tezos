@@ -29,6 +29,13 @@
     line-height: 1.8;
     font-size: 2rem;
   }
+  .footer-bar{
+    padding: 5rem;
+  }
+  .thumbnail{
+    background-size: contain;
+    background-position: bottom;
+  }
 
 }
 
@@ -41,6 +48,11 @@
   }
   .aboutusdetails{
     width: 100%;
+  }
+  .footer-bar{
+    grid-template-columns: auto auto;
+    padding: 5rem;
+    gap: 5rem;
   }
 }
 
@@ -84,6 +96,44 @@
   .socials{
     width: 75%;
   }
+  .footer-bar{
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .footer-bar div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 3rem;
+  }
+  .div-heading{
+    font-size: 5rem;
+  }
+
+  .div4 div{
+    flex-direction: row;
+  }
+  .div4 div button{
+    background-color: #8c52ff;
+    padding: 1rem;
+    border: 0px;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    margin-left: -5rem;
+  }
+  
+  .div4 div input{
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #8c52ff;
+  }
+
+
 }
 
 
