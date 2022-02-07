@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1200px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html{
+    font-size: 50%;
+  }
+
+  .aboutus-section img {
+    height: 40rem;
+  }
+  
+  .aboutusdetails {
+    text-align: justify;
+    width: 80%;
+    line-height: 1.8;
+    font-size: 2rem;
+  }
+  .blogsection img {
+    height: 40rem;
+  }
+  
+  .aboutblogdetails {
+    text-align: justify;
+    width: 80%;
+    line-height: 1.8;
+    font-size: 2rem;
+  }
+  .footer-bar{
+    padding: 5rem;
+  }
+  .thumbnail{
+    background-size: contain;
+    background-position: bottom;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  html{
+    font-size: 50%;
+  }
+  .aboutus-section{
+    flex-direction: column-reverse;
+  }
+  .aboutusdetails{
+    width: 100%;
+  }
+  .footer-bar{
+    grid-template-columns: auto auto;
+    padding: 5rem;
+    gap: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  html{
+    font-size: 50%;
+  }
+  
+  .headings .title {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+  }
+  
+  .headings .subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .aboutus-section{
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .aboutusdetails{
+    width: 100%;
+  }
+  .blogsection{
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .aboutblogdetails{
+    width: 100%;
+  }
+
+  .navbar .links {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .socials{
+    width: 75%;
+  }
+  .footer-bar{
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .footer-bar div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 3rem;
+  }
+  .div-heading{
+    font-size: 5rem;
+  }
+
+  .div4 div{
+    flex-direction: row;
+  }
+  .div4 div button{
+    background-color: #8c52ff;
+    padding: 1rem;
+    border: 0px;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    margin-left: -5rem;
+  }
+  
+  .div4 div input{
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #8c52ff;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .headings .title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+  
+  .headings .subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .navbar .links a {
+
+    font-size: 1.6rem;
+  }
+  .socials{
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html{
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html{
+    font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html{
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  html{
+    font-size: 15%;
+  }
+}
+
+@media only screen and (max-width: 180px) {
+  html{
+    font-size: 10%;
+  }
+}
+
+@media only screen and (max-width: 120px) {
+  html{
+    font-size: 5%;
+  }
+}
